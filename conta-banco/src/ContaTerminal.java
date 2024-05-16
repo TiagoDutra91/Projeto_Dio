@@ -19,7 +19,7 @@ public class ContaTerminal {
 
         System.out.println("Olá " + nome);
         System.out.println("Obrigado por criar uma conta em nosso banco");
-        System.out.println("Sua Agência é : " + agencia + "  Numero da Conta:" +numeroConta);
+        System.out.println("Sua Agência é:" + agencia + "  Numero da Conta:" +numeroConta);
         System.out.println("Seu saldo: R$" + saldo  + "  Já está disponivel para saque.");
     
 
