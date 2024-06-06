@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
-    
+    try {
         System.out.println("Olá, Digite seu nome:");
         String nome = scanner.next();
 
@@ -22,7 +22,8 @@ public class ContaTerminal {
         System.out.println("Sua Agência é:" + agencia + "  Numero da Conta:" +numeroConta);
         System.out.println("Seu saldo: R$" + saldo  + "  Já está disponivel para saque.");
     
-
+    }finally{
+    scanner.close();}
 
 
     }

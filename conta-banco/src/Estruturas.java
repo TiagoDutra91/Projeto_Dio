@@ -1,3 +1,4 @@
+
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -82,7 +83,9 @@ System.out.println("*****************simulação de compra de doces com mesada**
 }while(tocando());
 
 System.out.println("Alô!!!");
-    }
+
+
+}
 
     private static double ValorAleatorio(){
         return ThreadLocalRandom.current().nextDouble(2, 8);
